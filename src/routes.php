@@ -46,8 +46,8 @@ $app->post('/admin/subscription_beings', array( 'App\Controller\Subscriptions','
 
 $app->get('/admin/category_bases', array( 'App\Controller\CategoryBases','all') );
 $app->post('/admin/category_base', array( 'App\Controller\CategoryBases','post') );
-$app->get('/admin/category_base/{category_base_id}', array( 'App\Controller\CategoryBases','get') );
-$app->delete('/admin/category_base/{category_base_id}', array( 'App\Controller\CategoryBases','delete') );
+$app->get('/admin/category_base/{id}', array( 'App\Controller\CategoryBases','get') );
+$app->delete('/admin/category_base/{id}', array( 'App\Controller\CategoryBases','delete') );
 
 
 $app->get('/php', function( $req, $res, $args ) {
