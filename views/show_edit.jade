@@ -1,0 +1,49 @@
+.row
+	h1 {{ page_title }}
+	form.form-horizontal(ng-submit="updateShow()", role="form")
+		.form-group
+			label.col-md-2.control-label(for="showno") Turnier-Nr
+			.col-md-10
+				input.form-control(placeholder="Turnier-Nr",id="showno",ng-model="Show.showno")
+				span.help-block(ng-repeat="errormsg in Show._errors['showno']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="showcity") Veranstaltungsort
+			.col-md-10
+				input.form-control(placeholder="Veranstaltungsort",id="showcity",ng-model="Show.showcity")
+				span.help-block(ng-repeat="errormsg in Show._errors['showcity']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="from_dt") Von
+			.col-md-10
+				input.form-control(placeholder="Von-Datum",id="from_dt",ng-model="Show.from_dt")
+				span.help-block(ng-repeat="errormsg in Show._errors['from_dt']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="to_dt") Bis
+			.col-md-10
+				input.form-control(placeholder="Bis-Datum",id="to_dt",ng-model="Show.to_dt")
+				span.help-block(ng-repeat="errormsg in Show._errors['to_dt']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="clubno") Vereins-Nr
+			.col-md-10
+				input.form-control(placeholder="Vereinr-Nr",id="clubno",ng-model="Show.clubno")
+				span.help-block(ng-repeat="errormsg in Show._errors['clubno']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="organization") Organisation
+			.col-md-10
+				input.form-control(placeholder="Organisation",id="organization",ng-model="Show.organization")
+				span.help-block(ng-repeat="errormsg in Show._errors['organization']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="organizer") Organisator
+			.col-md-10
+				input.form-control(placeholder="Organisator",id="organizer",ng-model="Show.organizer")
+				span.help-block(ng-repeat="errormsg in Show._errors['organizer']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="address") Adresse
+			.col-md-10
+				input.form-control(placeholder="Adresse",id="address",ng-model="Show.address")
+				span.help-block(ng-repeat="errormsg in Show._errors['address']") {{errormsg}}
+		.form-group
+			.col-md-10.col-md-offset-2
+				button.btn.btn-default(type="submit") Speichern
+				a.btn.btn-default(ng-click="deleteShow()",ng-show="Show.id") Löschen
+				a.btn.btn-default(href="#/admin/shows") Zurück
+	

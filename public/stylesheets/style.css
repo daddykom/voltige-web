@@ -1,0 +1,34 @@
+
+body {
+	font-family: 'Arvo', serif;;
+}
+
+.help-block{
+	color: red;
+}
+#flash-messages li{
+	color: green;
+	list-style-type: none;
+}
+
+.order-member .btn{
+	text-align: left;
+}
+
+.table > thead > tr.search > td{
+	border: 0;
+	padding-bottom: 0;
+}
+.table > thead > tr.search > th{
+	border-top: 0;
+	padding-top: 0;
+	padding-left:12px;
+}
+
+.ui-sortable{
+	cursor:move;
+}
+
+.btn{
+	margin: 2px;
+}

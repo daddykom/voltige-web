@@ -1,0 +1,17 @@
+
+div(class="panel panel-default")
+	div.panel-heading(translate) Daten laden
+	div.panel-body
+		button( type='file', 
+				ngf-select='uploadFiles($file, $invalidFiles)',
+				class='btn btn-default'
+				translate) Datei wählen
+		div(style='font:smaller') File: {{ f.name }} {{ errFile.name }} {{ errFile.$error }} {{ errFile.$errorParam }}
+			span.progress(ng-show='f.progress >= 0')
+				div(style='width:{{ f.progress }}%; background-color: gray', )
+	
+		|{{ errorMsg }}
+	
+	
+
+	

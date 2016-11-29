@@ -1,0 +1,18 @@
+.row
+	h1 Command zu {{Code.codename}} {{title}}
+	form.form-horizontal(ng-submit="updateCodeCmd()", role="form")
+		.form-group
+			label.col-md-2.control-label(for="cmd") Command
+			.col-md-10
+				input.form-control(placeholder="Command",id="cmd",ng-model="CodeCmd.cmd")
+				span.help-block(ng-repeat="errormsg in CodeCmd._errors['cmd']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="description") Beschreibung
+			.col-md-10
+				input.form-control(placeholder="Beschreibung",id="description",ng-model="CodeCmd.description")
+				span.help-block(ng-repeat="errormsg in Code._errors['description']") {{errormsg}}
+		.form-group
+			.col-md-10.col-md-offset-2
+				button.btn.btn-default(type="submit") Speichern
+				a.btn.btn-default(ng-click="deleteCodeCmd()",ng-show="CodeCmd.id") Löschen
+				a.btn.btn-default(href="#/admin/code_cmds/{{Code.id}}") Zurück

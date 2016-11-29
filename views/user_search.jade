@@ -1,0 +1,36 @@
+.row
+	h1 Benutzer verwalten
+	form.form-horizontal(ng-submit="searchUsers()", role="form")
+		table.table.table-striped
+			thead
+				tr
+					th
+						div.form-group
+							input.form-control(type="text", ng-model="rootSearch.user.userid")
+						|BenutzerId
+					th
+						div.form-group
+							input.form-control(type="text", ng-model="rootSearch.user.name")
+						|Name
+					th
+						div.form-group
+							select.form-control(placeholder="Gruppe",id="group",ng-model="rootSearch.user.group",name="group")
+								option(value='')
+								option(ng-repeat="Group in Groups", value="{{Group.value}}") {{Group.text}}
+						|Gruppe
+					th
+						div.form-group
+							div.controls.row-fluid
+								button.form-control.btn.btn-default(type="submit",style="width: 50%")
+									span(class="glyphicon glyphicon-search", aria-hidden="true")
+								a.form-control.btn.btn-default(href="#/admin/user/0",style="width: 50%")
+									span(class="glyphicon glyphicon-plus", aria-hidden="true")
+						|Aktion
+			tbody
+				tr(ng-repeat="User in users")
+					td {{ User.userid }}
+					td {{ User.name }}
+					td {{ Groups[User.group].text }}
+					td
+						a.btn.btn-default.btn-sm(href="#/admin/user/{{User.id}}",style="width: 50%")
+							span(class="glyphicon glyphicon-edit", aria-hidden="true")

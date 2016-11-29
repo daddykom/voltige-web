@@ -1,0 +1,5 @@
+.form-group(ng-class="{ 'has-error': parentModel._errors[fieldName] || ngModelCtrl.$invalid }")
+	label.col-md-2.control-label(for="{{ for }}") {{ label }}
+	.col-md-10
+		input.form-control(placeholder="{{ label }}",id="{{fieldName}}",name="{{fieldName}}",type="{{type}}",ng-model="model")
+		span.help-block(ng-repeat="errormsg in parentModel._errors[fieldName]") {{ errormsg }}

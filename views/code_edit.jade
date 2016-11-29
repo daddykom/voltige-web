@@ -1,0 +1,18 @@
+.row
+	h1 Code
+	form.form-horizontal(ng-submit="updateCode()", role="form")
+		.form-group
+			label.col-md-2.control-label(for="codename") Codename
+			.col-md-10
+				input.form-control(placeholder="Codename",id="codename",ng-model="Code.codename")
+				span.help-block(ng-repeat="errormsg in Code._errors['codename']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="codetext") Bezeichnung
+			.col-md-10
+				input.form-control(placeholder="Bezeichnung",id="codetext",ng-model="Code.codetext")
+				span.help-block(ng-repeat="errormsg in Code._errors['codetext']") {{errormsg}}
+		.form-group
+			.col-md-10.col-md-offset-2
+				button.btn.btn-default(type="submit") Speichern
+				a.btn.btn-default(ng-click="deleteCode()",ng-show="Code.id") Löschen
+				a.btn.btn-default(href="#/admin/codes") Zurück

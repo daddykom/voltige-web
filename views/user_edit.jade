@@ -1,0 +1,29 @@
+.row
+	h1 Benutzer
+	form.form-horizontal(ng-submit="updateUser()", role="form")
+		.form-group
+			label.col-md-2.control-label(for="userid") BenutzerId
+			.col-md-10
+				input.form-control(placeholder="BenutzerId",id="userid",ng-model="User.userid")
+				span.help-block(ng-repeat="errormsg in User._errors['userid']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="name") Benutzer
+			.col-md-10
+				input.form-control(placeholder="Name",id="name",ng-model="User.name")
+				span.help-block(ng-repeat="errormsg in User._errors['name']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="password") Passwort
+			.col-md-10
+				input.form-control(placeholder="Passwort",id="password",ng-model="User.password",type="password")
+				span.help-block(ng-repeat="errormsg in User._errors['password']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="group") Gruppe
+			.col-md-10
+				select.form-control(placeholder="Gruppe",id="group",ng-model="User.group",name="group")
+					option(ng-repeat="Group in groups", value="{{Group.id}}") {{Group.text}}
+				span.help-block(ng-repeat="errormsg in User._errors['group']") {{errormsg}}
+		.form-group
+			.col-md-10.col-md-offset-2
+				button.btn.btn-default(type="submit") Speichern
+				a.btn.btn-default(ng-click="deleteUser()",ng-show="User.id") Löschen
+				a.btn.btn-default(href="#/admin/users") Zurück

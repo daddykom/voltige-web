@@ -1,0 +1,28 @@
+.row
+	h1 Commands {{Code.codetext}} verwalten
+	form.form-horizontal(ng-submit="searchCodeCmds()", role="form")
+		table.table.table-striped
+			thead
+				tr
+					th Command
+					th Beschreibung
+					th Text
+					th Voreinstellung
+					th
+						div.form-group
+							div.controls.row-fluid
+								a.form-control.btn.btn-default(href="#/admin/codetexts",style="width: 50%",data-toggle="tooltip",title="Zurück")
+									span(class="glyphicon glyphicon-chevron-left", aria-hidden="true")
+								a.form-control.btn.btn-default(href="#/admin/codetexts/0/{{Code.id}}",style="width: 50%",data-toggle="tooltip",title="Einfügen")
+									span(class="glyphicon glyphicon-plus", aria-hidden="true")
+						|Aktion
+			tbody
+				tr(ng-repeat="CodeCmdText in code_texts")
+					td {{ CodeCmdText.code_cmd.cmd }}
+					td {{ CodeCmdText.code_cmd.description }}
+					td {{ CodeCmdText.text }}
+					td
+						input(type="radio",value="{{CodeCmdText.id}}",ng-checked="CodeCmdText.id == Code.standard_code_cms_text_id",name="standard",onchange="angular.element(this).scope().changeStandard(this)")
+					td
+						a.btn.btn-default.btn-sm(href="#/admin/codetexts/{{CodeCmdText.id}}/{{Code.id}}",style="width: 50%",data-toggle="tooltip",title="Ändern")
+							span(class="glyphicon glyphicon-edit", aria-hidden="true" )

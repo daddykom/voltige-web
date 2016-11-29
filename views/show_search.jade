@@ -1,0 +1,48 @@
+.row
+	h1 {{ page_title }}
+	table.table.table-striped
+		thead
+			tr
+				th(translate)
+					div.form-group
+						input.form-control(type="text", ng-model="rootSearch.show.showno")
+					|Turnier
+				th(translate)
+					div.form-group
+						input.form-control(type="text", ng-model="rootSearch.show.organization")
+					|Organisation
+				th(translate)
+					div.form-group
+						input.form-control(type="text", ng-model="rootSearch.show.organizer")
+					|Organisator
+				th(translate)
+					div.form-group
+						input.form-control(type="text", ng-model="rootSearch.show.showcity")
+					|Ort
+				th(translate)
+					br
+					|Von - Bis
+				th(translate)
+					div.form-group
+						div.controls.row-fluid
+							button.form-control.btn.btn-default(ng-click="searchShows()",style="width: 50%")
+								span(class="glyphicon glyphicon-search", aria-hidden="true")
+							a.form-control.btn.btn-default(href="#/admin/category_base/0",style="width: 50%")
+								span(class="glyphicon glyphicon-plus", aria-hidden="true")
+					|Aktion
+		tbody
+			tr(ng-repeat="Show in shows")
+				td {{ Show.showno }}
+				td {{ Show.organization }}
+				td {{ Show.organizer }}
+				td {{ Show.showcity }}
+				td
+					span(ng-bind="Show.from_dt | date:'dd.MM.yyyy' ")
+					span &nbsp; - &nbsp;
+					span(ng-bind="Show.to_dt | date:'dd.MM.yyyy' ")
+				td
+					div.controls.row-fluid
+						button.form-control.btn.btn-default(ng-click="selectShow(Show.id)",style="width: 50%",ng-show="!admin_show")
+							span(class="glyphicon glyphicon-ok", aria-hidden="true")
+						a.form-control.btn.btn-default(href="#/admin/show/{{Show.id}}",style="width: 50%",ng-show="admin_show")
+							span(class="glyphicon glyphicon-edit", aria-hidden="true")

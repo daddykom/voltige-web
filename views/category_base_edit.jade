@@ -1,0 +1,16 @@
+.row
+	h1 {{ page_title }}
+	form.form-horizontal(ng-submit="updateCategoryBase()", role="form", name="formCategoryBase")
+		input-text(label="Kategorie",ng-model="CategoryBase.short_description",parent-model="CategoryBase")
+		input-text(label="Gruppe min.",ng-model="CategoryBase.mingroup",parent-model="CategoryBase",type="number")
+		input-text(label="Gruppe max.",ng-model="CategoryBase.maxgroup",parent-model="CategoryBase",type="number")
+		input-text(label="Mindestalter",ng-model="CategoryBase.minage",parent-model="CategoryBase",type="number")
+		input-text(label="Maximalalter",ng-model="CategoryBase.maxage",parent-model="CategoryBase",type="number")
+		input-text(label="Richter min.",ng-model="CategoryBase.minref",parent-model="CategoryBase",type="number")
+		input-text(label="Richter max.",ng-model="CategoryBase.maxref",parent-model="CategoryBase",type="number")
+		.form-group
+			.col-md-10.col-md-offset-2
+				button.btn.btn-default(type="submit") Speichern
+				a.btn.btn-default(ng-click="deleteCategoryBase()",ng-show="CategoryBase.id") Löschen
+				a.btn.btn-default(href="#/admin/category_bases") Zurück
+	

@@ -1,0 +1,83 @@
+.row
+	h1 {{ page_title }}
+	div
+		h2 {{Subscription.subscription_beings.M[0].Member.club}}
+		h3
+			span {{Subscription.subscription_beings.M[0].Member.name}} {{Subscription.subscription_beings.M[0].Member.prename}}
+			span(ng-if="Subscription.subscription_beings.M[1]") , {{Subscription.subscription_beings.M[1].Member.name}} {{Subscription.subscription_beings.[1].Member.prename}}
+		div.panel.panel-default
+			div.panel-body
+				button.btn.btn-primary( type="button", ng-click="openLonge()") Longenführer ändern
+				button.btn.btn-primary( type="button", ng-click="openLonge()") Pferd ändern
+				button.btn.btn-primary( type="button", ng-click="openLonge()", ng-hide="{{Subscription.Category.type != 'ST' && Subscription.Category.type != 'S'}}") Kategorie ändern
+				a.btn.btn-default( type="button", href="#/admin/subscriptions/registration_office") Zurück
+		div.panel.panel-default
+			div.panel-heading
+				h4 Start
+			div.panel-body
+				.form-group
+					label.col-md-2.control-label Kategorie
+					.col-md-10
+						p.form-control-static {{Subscription.Category.type}}
+				.form-group
+					label.col-md-2.control-label Datum
+					.col-md-10
+						p.form-control-static {{Subscription.Category.start_dt | date: "EEE dd.MM.yyyy" }}
+		div.panel.panel-default
+			div.panel-heading
+				h4 Pferd
+			div.panel-body
+				.form-group
+					label.col-md-2.control-label KopfNr, Name
+					.col-md-10
+						p.form-control-static {{Subscription.subscription_beings.H[0].Horse.headno}}, {{Subscription.subscription_beings.H[0].Horse.name}}
+				.form-group
+					label.col-md-2.control-label Besitzer
+					.col-md-10
+						p.form-control-static {{Subscription.subscription_beings.H[0].Horse.owner}}
+				.form-group
+					label.col-md-2.control-label Longe
+					.col-md-10
+						p.form-control-static {{Subscription.subscription_beings.L[0].Member.fn_no}} {{Subscription.subscription_beings.L[0].Member.prename}} {{Subscription.subscription_beings.L[0].Member.name}}
+				.form-group
+					label.col-md-2.control-label Longe Ersatz
+					.col-md-10
+						p.form-control-static
+							span(ng-repeat="SubscriptionBeingLA in Subscription.subscription_beings.LA")
+								| {{ SubscriptionBeingLA.Member.fn_no | isEmpty: '' }} {{SubscriptionBeingLA.Member.prename}} {{SubscriptionBeingLA.Member.name}} |
+				
+		div.panel.panel-default(ng-if="!Subscription.subscription_beings.G")
+			div.panel-heading
+				h4 Teilnehmer
+			div.panel-body
+				.btn-group-vertical.order-member
+					div(ng-repeat="SubscriptionBeingM in Subscription.subscription_beings.M")
+						span {{SubscriptionBeingM.Member.prename}} {{SubscriptionBeingM.Member.name}} ({{ SubscriptionBeingM.Member.fn_no}})
+		div.panel.panel-default(ng-if="Subscription.subscription_beings.G")
+			div.panel-heading
+				h4 Teilnehmer
+			div.panel-body
+				p Reihenfolge ändern: mit der Maus verschieben..
+					.btn.btn-primary(ng-click="saveReorder()",ng-disabled="!saveOrderEnable") Speichern
+				ul.list-group.ui-sortable(ui-sortable="sortableOptions",ng-model="Subscription.subscription_beings.G")
+					li.list-group-item(ng-repeat="SubscriptionBeingG in Subscription.subscription_beings.G")
+							span {{SubscriptionBeingG.pos}}. {{SubscriptionBeingG.Member.prename}} {{SubscriptionBeingG.Member.name}} ({{ SubscriptionBeingG.Member.fn_no}})
+		script(type="text/ng-template", id="changeLonge.html")
+			div.panel.panel-default
+				div.panel-heading
+					h3 Longenführer wechseln
+				div.panel-body
+					div.panel.panel-default
+						div.panel-body
+							h4 Aktueller-Longenführer
+							{{Longe.Member.prename}} {{Longe.Member.name}}
+					div.panel.panel-default
+						div.panel-body
+							p Mögliche Ersatz-Longenführer (wählen durch klicken)
+							button.btn.btn-default(ng-click="change(SubscriptionBeingLA)",ng-repeat="SubscriptionBeingLA in replace")
+								{{SubscriptionBeingLA.Member.prename}} {{SubscriptionBeingLA.Member.name}}
+					div.panel.panel-default
+						div.panel-body
+							button.btn.btn-primary( type="button", ng-click="saveLonge()") Speichern
+							button.btn.btn-default( type="button", ng-click="$dismiss()") Schliessen
+		

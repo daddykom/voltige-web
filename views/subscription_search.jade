@@ -1,0 +1,43 @@
+.row
+	h1 {{ page_title }}
+	table.table.table-striped
+		thead
+			tr.search
+				td(translate)
+					div.form-group
+						input.form-control(type="text", ng-model="rootSearch.subscription.club", ng-keyup="$event.keyCode == 13 && searchSubscriptions()")
+				td(translate)
+					div.form-group
+						input.form-control(type="text", ng-model="rootSearch.subscription.name", ng-keyup="$event.keyCode == 13 && searchSubscriptions()")
+				td(translate)
+					div.form-group
+						input.form-control(type="text", ng-model="rootSearch.subscription.prename", ng-keyup="$event.keyCode == 13 && searchSubscriptions()")
+				td(translate)
+					div.form-group
+						input.form-control(type="text", ng-model="rootSearch.subscription['categories.type']", ng-keyup="$event.keyCode == 13 && searchSubscriptions()")
+				td(translate)
+					div.form-group
+						div.controls.row-fluid
+							button.form-control.btn.btn-default(ng-click="searchSubscriptions()")
+								span(class="glyphicon glyphicon-search", aria-hidden="true")
+			tr.search
+				th(translate)
+					|Verein
+				th(translate)
+					|Name / Gruppenname
+				th(translate)
+					|Vorname
+				th(translate)
+					|Kategorie
+				th(translate)
+					|Aktion
+		tbody
+			tr(ng-repeat="Subscription in subscriptions")
+				td {{ Subscription.club }}
+				td {{ Subscription.name }}
+				td {{ Subscription.prename }}
+				td {{ Subscription.type }}
+				td
+					div.controls.row-fluid
+						a.form-control.btn.btn-default(href="#/admin/{{backlink}}/{{Subscription.subscription_id}}",ng-subscription="admin_subscription")
+							span(class="glyphicon glyphicon-edit", aria-hidden="true")

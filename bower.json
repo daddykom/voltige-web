@@ -1,0 +1,35 @@
+{
+    "name": null,
+    "authors": [
+        "Beelab <info@bee-lab.net>",
+        null
+    ],
+    "private": true,
+    "dependencies": {
+        "angularjs": "*",
+        "angular-route": "*",
+        "angular-ui-bootstrap": "*",
+        "bootstrap": "*",
+        "angular-bootstrap": "*",
+        "jquery": "2.*",
+        "jqueryui-timepicker-addon": "*",
+        "moment": "*",
+        "fontawesome": "*",
+        "ng-file-upload": "*",
+        "angular-datetime": "*",
+        "jasny-bootstrap": "*",
+        "angular-bootstrap-contextmenu": "*",
+        "angular-dragdrop": "*",
+        "ngDraggable": "*",
+        "angular-animate": "*",
+        "angular-jwt": "*",
+        "ngstorage": "*",
+        "angular-flash-messages": "*",
+        "angular-sanitize": "*",
+        "angular-messages": "*",
+        "angular-gettext": "*",
+        "angular-file-upload": "*",
+        "angular-ui-sortable": "*"
+    },
+    "author": null
+}

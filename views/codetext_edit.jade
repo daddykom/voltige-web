@@ -1,0 +1,19 @@
+.row
+	h1 Text zu Code {{Code.codename}} {{title}} bearbeiten
+	form.form-horizontal(ng-submit="updateCodeText()", role="form")
+		.form-group
+			label.col-md-2.control-label(for="code_cmd_id") Command
+			.col-md-10
+				select.form-control(id="code_cmd_id",ng-model="CodeCmdText.code_cmd_id", 
+					ng-options="CodeCmd.id as (CodeCmd.cmd+' - '+CodeCmd.description)  for (key, CodeCmd) in code_cmds", name="code_cmd_id")
+				span.help-block(ng-repeat="errormsg in CodeCmdText._errors['code_cmd_id']") {{errormsg}}
+		.form-group
+			label.col-md-2.control-label(for="description") Text
+			.col-md-10
+				input.form-control(placeholder="Text",id="text",ng-model="CodeCmdText.text")
+				span.help-block(ng-repeat="errormsg in Code._errors['text']") {{errormsg}}
+		.form-group
+			.col-md-10.col-md-offset-2
+				button.btn.btn-default(type="submit") Speichern
+				a.btn.btn-default(ng-click="deleteCodeCmdText()",ng-show="CodeCmdText.id") Löschen
+				a.btn.btn-default(href="#/admin/codetextsearch/{{Code.id}}") Zurück

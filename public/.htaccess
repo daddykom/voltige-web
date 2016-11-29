@@ -1,0 +1,27 @@
+RewriteEngine On
+
+# Some hosts may require you to use the `RewriteBase` directive.
+# If you need to use the `RewriteBase` directive, it should be the
+# absolute physical path to the directory that contains this htaccess file.
+#
+# RewriteBase /
+
+php_value display_errors On
+php_value display_startup_errors On
+php_value log_errors On
+php_value error_reporting 32767
+#php_value doc_root "/home/collinsc/public_html/voltige/"
+
+RewriteRule .* - [env=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [END]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+<files secret.txt>
+order allow,deny
+deny from all
+</files>
+

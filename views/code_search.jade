@@ -1,0 +1,31 @@
+.row
+	h1 Codes verwalten
+	form.form-horizontal(ng-submit="searchCodes()", role="form")
+		table.table.table-striped
+			thead
+				tr
+					th
+						div.form-group
+							input.form-control(type="text", ng-model="rootSearch.code.codename")
+						|Code
+					th
+						div.form-group
+							input.form-control(type="text", ng-model="rootSearch.code.codetext")
+						|Text
+					th
+						div.form-group
+							div.controls.row-fluid
+								button.form-control.btn.btn-default(type="submit",style="width: 50%")
+									span(class="glyphicon glyphicon-search", aria-hidden="true")
+								a.form-control.btn.btn-default(href="#/admin/code/0",style="width: 50%")
+									span(class="glyphicon glyphicon-plus", aria-hidden="true")
+						|Aktion
+			tbody
+				tr(ng-repeat="Code in codes")
+					td {{ Code.codename }}
+					td {{ Code.codetext }}
+					td
+						a.btn.btn-default.btn-sm(href="#/admin/code/{{Code.id}}",style="width: 50%",data-toggle="tooltip",title="Text Edit")
+							span(class="glyphicon glyphicon-edit", aria-hidden="true", )
+						a.btn.btn-default.btn-sm(href="#/admin/code_cmds/{{Code.id}}",style="width: 50%",data-toggle="tooltip",title="Code verwalten")
+							span(class="glyphicon glyphicon-chevron-right", aria-hidden="true")

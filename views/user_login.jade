@@ -1,0 +1,14 @@
+.row
+	h1 Login
+		form.form-horizontal(ng-submit="login()", role="form")
+			.form-group
+				label.col-md-2.control-label(for="userid") Benutzer
+				.col-md-10
+					input.form-control(placeholder="Benutzer",id="userid",ng-model="User.userid")
+			.form-group
+				label.col-md-2.control-label(for="password") Passwort
+				.col-md-10
+					input.form-control(placeholder="Passwort",id="password",ng-model="User.password",type="password")
+			.form-group
+				.col-md-10.col-md-offset-2
+					button.btn.btn-default(type="submit) Login

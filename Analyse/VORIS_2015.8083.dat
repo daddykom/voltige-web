@@ -1,0 +1,371 @@
+TURNIER
+VEREINSNR|VERANSTALTER|AP|ADRESSE|VERANSTALTUNGSNR|VERANSTALTUNGORT|DATUM VON|DATUM BIS
+653|Votigeverein Stäfa|Marfurt Rolf|Sonnenhofstrasse 7, 8340 Hinwil|2015.8083|Gossau|26.09.2015|27.09.2015
+
+PRUEFUNGEN
+ID|NR|DURCHGANG|TITEL|DATUM|TYP|NENNGELD
+42397|1|1||26.09.2015|G-B|90
+42406|10|1||27.09.2015|E-ST|35
+42407|11|1||27.09.2015|PdD-S|65
+42398|2|1||26.09.2015|G-BJ|90
+42399|3|1||26.09.2015|G-L|90
+42400|4|1||26.09.2015|G-M|90
+42401|5|1||26.09.2015|E-SJ|35
+42402|6|1||26.09.2015|E-S|35
+42403|7|1||27.09.2015|G-SJ|90
+42404|8|1||27.09.2015|G-S|90
+42405|9|1||27.09.2015|E-SJ|35
+
+PFERDE
+ID|NAME|VEREIN|BESITZER|ALTER|GESCHLECHT|FARBE|KOPFNUMMER|EINTRAGUNGSNR
+82421|ALESSIO V CH||Oezalp Hazal|12|Wallach|braun|001|82421
+83104|AMARETTO DU PERCHET CH||Kauer Trudi|12|Wallach|Fuchs|002|83104
+101464|AMELIA V CH||Stump Corinne|9|Stute|braun|003|101464
+101488|ANUSCH CH||Jean Marie-Claire|11|Wallach|Fuchs|004|101488
+105139|AROC CH||Bosshard Corinne|7|Wallach|braun|005|105139
+71139|ARON V. EICHHOF CH||NPZ/CEN Nat. Pferdezentrum|14|Wallach|Fuchs|006|71139
+116483|ATHOS VI CH||Wisler Roger|7|Wallach|dunkelbraun|007|116483
+85975|AVALON W||Kauer Trudi|11|Wallach|braun|008|85975
+81498|BARON VAN ESSENE||Bodmer Simone|14|Wallach|dunkelbraun|009|81498
+85238|BLACK BEAUTY VI||Degiorgi Mirjam|12|Wallach|Rappe|010|85238
+95980|BONMAHON BELLA||Kunz Claudia|10|Stute|Braunschimmel|011|95980
+99912|CALARO AV CH||Degiorgi Edith|8|Wallach|braun|012|99912
+114970|CAMELIA DU HARBY||Martin Ursula|7|Stute|Rappe|013|114970
+76429|CANELLE XIV CH||Nowak Noemi|15|Stute|braun|014|76429
+68355|CAPE ELVIS CH||Graf Andrea|14|Wallach|braun|015|68355
+86514|CAPRIATI||Vollenweider Janine|13|Wallach|Fuchs|016|86514
+69287|CAPTAIN COOK II||Wüst Albert|17|Wallach|Schimmel|017|69287
+67788|CARAMEL Z CH||Steiger Vanessa|15|Wallach|braun|018|67788
+63788|CARISSMA CH||Kuster Erika|16|Stute|braun|019|63788
+116694|CASTLE MASTER LADY||Kauer Trudi|7|Stute|braun|020|116694
+87437|CENTUS V. THORNESELE Z||Kläger Cornelia|13|Wallach|Schimmel|021|87437
+89137|CHAMPUS III||Etter Manuela|11|Wallach|Schimmel|022|89137
+98412|CHARISMO||Curty Sibylle|9|Wallach|Fuchs|023|98412
+67937|CLEA III CH||Rupp Walter|25|Stute|Fuchs|024|67937
+101300|COCKWOOD||Schmid Marlis|13|Wallach|braun|025|101300
+119357|COLBAN VON HOF CH||Mumprecht Kathrin|7|Wallach|braun|026|119357
+76184|CONSILIO V. SCHL HOF CH||Voltigeverein St. Gallen|14|Wallach|braun|027|76184
+53177|CONTE DI ALMAVIVA||Meier Otto|20|Wallach|Schimmel|028|53177
+102767|CONTROLEUR CH||Stump Corinne|8|Wallach|braun|029|102767
+118265|CORAIL CH||Nyffenegger Sarah-Nadia|6|Wallach|Fuchs|030|118265
+78128|CORVAT V. KAPPENSAND CH||Egli Theres|16|Wallach|Fuchs|031|78128
+65012|COUNTRY CHAMPION CH||Boehlen Roland|16|Wallach|schwarzbraun|032|65012
+93057|CRESCENDO RR CH||Reusser Hans Rudolf|9|Wallach|braun|033|93057
+67717|CRYSTAL III||Curty Sibylle|19|Wallach|Schimmel|034|67717
+63992|CYRANO NILAYA CH||Steiger Vanessa|16|Wallach|braun|035|63992
+84915|DEAN II CH||Bürgi Susanne|13|Wallach|Fuchs|036|84915
+90156|DIABOLO DU ROUMAILLARD||Voltigeverein St. Gallen|10|Wallach|braun|037|90156
+100582|DOLCE VITA VI||Schaffner Felicia|12|Stute|dunkelbraun|038|100582
+69238|DOSINO||Zundel Sascha|15|Wallach|Rappe|039|69238
+90639|FELLINI IX CH||Kramer Dina|10|Wallach|braun|040|90639
+75595|FERGUS DU MALEY CH||Koch Corin|16|Wallach|braun|041|75595
+61888|FILIPP CH||Stump Albert|20|Wallach|dunkelbraun|042|61888
+62250|FLYING KING CH||Kauer Trudi|15|Wallach|braun|043|62250
+77039|FOR EVER DU CHALET CH||Blieske Rita|10|Wallach|Fuchs|044|77039
+63819|GALINO IV CH||Kauer Trudi|16|Wallach|braun|045|63819
+70594|GOUPIL DL BLANCHERIE CH||LBA VetD der Armee|15|Wallach|Fuchs|046|70594
+89926|GUCCI II||Meier Heidi|15|Wallach|braun|047|89926
+62375|HABLEUR DU MONT||Borer Fritz|20|Wallach|braun|048|62375
+113849|HENRY F CH||Freitag Patricia|7|Wallach|Fuchs|049|113849
+122583|INJECTION||Zumkehr Hans Peter|7|Wallach|Schimmel|050|122583
+89401|ISABELLA IV||Bosshard Corinne|11|Stute|Tigerschecke|051|89401
+124995|J GIGANTE||Meier Birgit|16|Wallach|Schimmel|052|124995
+89511|JUNIOR VI||Bosshard Corinne|14|Wallach|braun|053|89511
+97847|KALLE BLOMQUIST||Daeppen Manuela|11|Wallach|braun|054|97847
+75302|KARAT DE LAMBREY||Eugster Andreas|17|Wallach|braun|055|75302
+104692|KEEP COOL III||Winkler-Bischofberger Monika|10|Wallach|Dunkelfuchs|056|104692
+54384|KENNEDY II||Schaffner Felicia|21|Wallach|Fuchs|057|54384
+79138|KIMBERLEY S||Bosshard Verena|23|Stute|braun|058|79138
+65409|KIMI DU BAYET||Zumkehr Irène|17|Wallach|braun|059|65409
+91808|KYR ROYAL VOM EBNET CH||Voltigeverein St. Gallen|9|Wallach|dunkelbraun|060|91808
+68793|LAFFITO CH||Lüber Andrea|15|Wallach|braun|061|68793
+81761|LANDWELL D. HAUTS MONTS CH||NPZ/CEN Nat. Pferdezentrum|12|Wallach|braun|062|81761
+78897|LARGO XIX CH||LBA VetD der Armee|12|Wallach|Schimmel|063|78897
+84125|LARISSA XLIX CH||Freund Naomi|20|Stute|braun|064|84125
+98450|LATINO V. FORST CH||Tanner Nicole|8|Wallach|dunkelbraun|065|98450
+94820|LECARLO CH||Marti Marina|10|Wallach|Fuchs|066|94820
+99201|LENUS||Rothweiler Yvette|14|Wallach|braun|067|99201
+61712|LEONARDO DA VINCI CH||Gebs Dar Annemarie|20|Wallach|braun|068|61712
+71157|LIMETTO||Zumkehr Béatrice Erika|15|Wallach|braun|069|71157
+125831|LINTAS ASS||Blieske Rita|12|Wallach|Schimmel|070|125831
+93867|LIVANTO CHA CH||Degiorgi Edith|9|Hengst|braun|071|93867
+61000|LIVING DREAM CH||Röthlisberger Sylvia|16|Wallach|Braunschimmel|072|61000
+58071|LIVORNO D OR CH||Stump Hildegard|18|Wallach|Eisenschimmel|073|58071
+122627|LONDONTIME||Bosshard Corinne|8|Stute|braun|074|122627
+89906|LORANO II||Bruderer Elisabeth|13|Wallach|braun|075|89906
+50266|LUCA II CH||Jucker Ulrich|21|Stute|braun|076|50266
+91002|LUK||Jäiser Simone|12|Wallach|Fuchs|077|91002
+66838|LUSER CH||Voltigeverein St. Gallen|15|Wallach|Fuchs|078|66838
+115497|LUTIN VERT||Bischofberger Kurt|16|Wallach|braun|079|115497
+70321|NATASCHA VIII CH||Schneider Ursula|16|Stute|Fuchs|080|70321
+102709|OLGA VIII||Voltigeverein St. Gallen|13|Stute|dunkelbraun|081|102709
+107965|OLYMPICA||Bächli Tanja|9|Stute|dunkelbraun|082|107965
+79664|ONYX BOY BERENCE||Martin Ursula|13|Wallach|Schimmel|083|79664
+125890|OPTIMUS PRIME||Freund Naomi|6|Wallach|dunkelbraun|084|125890
+117358|ORLANDO DU HAUT BARR||Bischofberger Kurt|13|Wallach|braun|085|117358
+90596|PADY DE JEAN BEL||Blieske Rita|12|Wallach|braun|086|90596
+78312|POMONE CH||Stump Hildegard|13|Stute|dunkelbraun|087|78312
+57960|QUASIMODO II CH||Santmann Werner|18|Wallach|braun|088|57960
+61486|QUEBEC VON HOF CH||Hedinger Sara|18|Wallach|Fuchs|089|61486
+90930|QUI SAIT||Landolt Stefanie|11|Wallach|dunkelbraun|090|90930
+65360|RAMELLO||Tütsch Verena|17|Wallach|Rappe|091|65360
+85113|RAMIRES RMW CH||Schaffner Stefanie|12|Wallach|braun|092|85113
+82882|RENOIR XI CH||Etter Manuela|12|Wallach|braun|093|82882
+74670|RITSCHI RICH||Blieske Rita|15|Wallach|dunkelbraun|094|74670
+64845|ROCKY XXXVIII CH||Stump Corinne|17|Wallach|braun|095|64845
+98401|ROYAL DANCE N CH||Voltigeverein St. Gallen|8|Wallach|Fuchs|096|98401
+93174|RUBINIRO CH||Zehnder Sabine|9|Wallach|dunkelbraun|097|93174
+82400|SANTOS XXII CH||Nyffenegger Sarah-Nadia|12|Wallach|Fuchs|098|82400
+113458|SATURNUS||Schulthess Ruth|16|Wallach|braun|099|113458
+125189|SEVILLA III||Bosshard Corinne|9|Stute|Rappe|100|125189
+54461|SH LIANOS CH||Bosshard Corinne|19|Wallach|braun|101|54461
+121479|SHEITAN IV||Zumkehr Irène|18|Wallach|dunkelbraun|102|121479
+78389|SIEGFRIED||Heuer Michael|19|Wallach|braun|103|78389
+86647|SILVANTUS||Bischofberger Heidi|19|Wallach|Dunkelfuchs|104|86647
+70907|SISSI XXII CH||Kuratli Martina|14|Stute|Fuchs|105|70907
+97183|STRAHLEMANN KWG CH||Degiorgi Mirjam|9|Wallach|braun|106|97183
+122774|SUE ELLEN||Bischofberger Kurt|11|Stute|dunkelbraun|107|122774
+106631|TAMINO XV||Gebs Dar Annemarie|14|Wallach|braun|108|106631
+60169|VAMPIRE VAUTENAIVRE CH||Geitlinger Maja|17|Wallach|braun|109|60169
+83725|VOLFINE DE VAUTENAIVRE CH||Ledermann Sandra|12|Stute|dunkelbraun|110|83725
+62969|WAIMAR CH||NPZ/CEN Nat. Pferdezentrum|16|Wallach|braun|111|62969
+90676|WARCANCY||Steffen Wagner Rosmarie|11|Wallach|dunkelbraun|112|90676
+73566|WASHINGTON VII||Lenhart Inga|15|Wallach|Rappe|113|73566
+86648|WILL BE GOOD||Bischofberger Kurt|20|Wallach|Schimmel|114|86648
+122192|WINNIPEG R||Hengartner Marisa|12|Stute|braun|115|122192
+
+TEILNEHMER (GRUPPEN)
+ID|FN-NR|GRUPPE|VEREIN|KLASSE|BEMERKUNG
+824083||Athleta Elite|Voltige Gruppe Athleta|S|
+817713||Biel II|VG Biel-Ipsach|S|Ersatzlongenführer: Michael Heuer
+817346||St.Gallen 1|Voltige-Gruppe RC St.Gallen|S|Ersatzlongenführer: Marion Hefti
+816121||Voltige-Club Harlekin Elite 2|Voltige-Club Harlekin|S|Ersatzlongenfüherin R.Klöti
+816122||Voltige-Club Harlekin Elite 1|Voltige-Club Harlekin|S|Ersatzlongenführerin. A.Hauser
+813974||NPZ Bern 1|NPZ Bern|S|
+813690||Garten 1|Garten|S|Ersatz-LF Albert Stump
+813322||Rosental I|VG Rosental|S|Ersatz-LF: Koch Corin, Vollenweider Janine
+813233||Beluga I|Voltige-Gruppe Beluga|S|Ers. Longenführerin Vanessa Rusca
+813215||Biel I|VG Biel-Ipsach|S|Ersatzlongenführerin: Vanessa Steiger
+813170||Voltige Lütisburg 1|Voltige Lütisburg|S|Ersatz LF: Michael Gnad, Desiree Widmer, Karin Dick, Stephanie Hangartner
+812576||Voltige Tösstal Senioren 1|Voltige Tösstal|S|
+814062||Athleta Junioren|Voltige Gruppe Athleta|SJ|
+834083||Voltige Montmirail Junior|Voltige Montmirail|SJ|Ersatzlongenf.: Edith Degiorgi
+823902||Voltige Lütisburg 2|Voltige Lütisburg|SJ|Ersatz LF: Michael Gnad, Desiree Widmer, Karin Dick, Stephanie Hangartner
+823903||Voltige Lütisburg 3|Voltige Lütisburg|SJ|Ersatz LF: Monika Winkler, Michael Gnad, Karin Dick, Stephanie Hangartner
+816120||Voltige-Club Harlekin Junioren 1|Voltige-Club Harlekin|SJ|
+814345||Forch 1|Voltige Forch|SJ|Ersatz LF: Bettina Daeppen, Manuela Daeppen
+812575||Voltige Tösstal Junioren 1|Voltige Tösstal|SJ|
+817957||ZüriWyland&Schaffuuse 1|RV Schaffhausen|M|
+817782||Voltige Team Emme - Team 1|Voltige Team Emme|M|
+817345||St.Gallen 2|Voltige-Gruppe RC St.Gallen|M|Ersatzlongenführer: Petra Stucki
+816119||Voltige-Club Harlekin Elite 3|Voltige-Club Harlekin|M|Ersatzlongenführerin C.Bruhn
+814344||Forch 2|Voltige Forch|M|Ersatz LF: Ursi Martin
+812898||RV Wetzikon I|RV Wetzikon|M|Ersatz Longe: Isabel Furrer
+812848||Basiliensis II|Basiliensis|M|Ersatz LF: R. / S. Röthlisberger
+812745||VV Stäfa I|VV Stäfa|M|Ersatz Longenführer: Kuratli Martina
+812574||Voltige Tösstal Junioren 2|Voltige Tösstal|M|
+820557||Bazenheid 1|Bazenheid|L|
+817413||VG Neuwies 1|VG Neuwies|L|Ersatzlongenführer Meier Marcel und Meier Heidi
+817344||St.Gallen 3|Voltige-Gruppe RC St.Gallen|L|Ersatzlongenführer: Marion Hefti
+813168||Voltige Lütisburg 4|Voltige Lütisburg|L|Ersatz LF: Monika Winkler, Michael Gnad, Desiree Widmer, Karin Dick, Stephanie Hangartner
+812897||RV Wetzikon II|RV Wetzikon|L|Ersatz L. Bächli Tanja
+812573||Voltige Tösstal Junioren 3|Voltige Tösstal|L|
+814343||Forch 3|Voltige Forch|BJ|Ersatz LF: Ursi Martin, Manuela Daeppen
+813973||NPZ Bern 3|NPZ Bern|BJ|
+813166||Voltige Gruppe Auenhof|Voltige Gruppe Auenhof|BJ|
+812933||Abraxas II|Voltigegruppe Abraxas|BJ|
+812901||RV Wetzikon III|RV Wetzikon|BJ|Ersatz L. Isabel Furrer
+812746||VV Stäfa II|VV Stäfa|BJ|Ersatz Longenführer: Hindermann Désirée, Kummer Martina
+812572||Voltige Tösstal Junioren 4|Voltige Tösstal|BJ|
+825291||Egnach 1|KV Egnach|B|zzgl. Meier Michaela (Athletin)
+817956||ZüriWyland&Schaffuuse 2|RV Schaffhausen|B|
+817683||Calimero II|Voltigeverein Calimero|B|Ersatzlongenführer: Shabir Dar
+817498||St.Gallen 6|Voltige-Gruppe RC St.Gallen|B|Ersatzlongenführer: Petra Stucki & Marion Hefti; Hilfsperson: Helen Allenspach
+817342||St.Gallen 5|Voltige-Gruppe RC St.Gallen|B|Ersatzlongenführer:  Petra Stucki
+814716||KV Egnach II|KV Egnach II|B|
+812932||Abraxas I|Voltigegruppe Abraxas|B|
+812847||Basiliensis III|Basiliensis|B|Ersatz LF: C. / S. / R. Röthlisberger
+
+NENNUNGEN (GRUPPEN)
+PRUEFUNG ID|TEILNEHMER ID|FN-NR LONGE|LONGE|PFERDE ID|ID1|N1|V1|J1|ID2|N2|V2|J2|ID3|N3|V3|J3|ID4|N4|V4|J4|ID5|N5|V5|J5|ID6|N6|V6|J6|ID7|N7|V7|J7|ID8|N8|V8|J8|ID9|N9|V9|J9|ID10|N10|V10|J10|ID11|N11|V11|J11|ID12|N12|V12|J12
+42404|824083|12344|Kauer Trudi|62250|277046|Godel|Noemi|1994|298978|Pillonel|Nadine|2000|272679|Brenn|Florence|1997|278118|Brenner|Sara|1996|298976|Fischer|Vera|1993|302584|Ryf|Louisa|2003|272680|Brenn|Jasmin|1996|298977|Godel|Aline|1991|287583|Schneider|Anja|2003|298974|Berger|Sarah|1993|298975|Fischer|Patrizia|1991||||
+42404|817713|217299|Steiger Vanessa|67788|307472|Gross|Anaelle|1994|307473|Hess|Felice|1994|307474|Flamand|Roxane|1998|307468|Curty|Larissa|1993|307476|Bühler|Leila|2001|307477|Forrer|Kim|2007|307475|Gross|Catalina|1998|307467|Wälti|Angélique|1994||||||||||||||||
+42404|817346|206033|Stucki Petra|91808|307812|Angehrn|Sarah|2002|288636|Frick|Alessia|1992|307813|Fritsche|Liv|1994|296089|Graf|Sina|1997|290594|Müller|Andrin|1994|307814|Nalesso|Jennifer|2004|239641|Nef|Selina|1990|262646|Ruckstuhl|Angelika|1994|307815|Signer|Sandra|2000||||||||||||
+42404|816121|10413|Blieske Rita|74670|265432|Freitag|Patricia|1991|307571|Götsch|Tatjana|2001|298370|Moor|Lorena|1998|307611|Schär|Sereina|2000|307576|Schulthess|Maren|2005|307574|Stadelmann|Jenny|2005|307575|Steinauer|Alice|2002|307612|von Büren|Annalena|2001|298364|Walder|Carol|1995|307613|Zitt|Amanda|2000||||||||
+42404|816122|10413|Blieske Rita|116483|298360|Dubs|Ursina|1997|275133|Hofstetter|Céline|1996|298366|Iglesias|Lorena|2001|205673|Jäiser|Simone|1986|285264|Löwy|Alexandra|1996|266848|Mohar|Marina|1996|275134|Walder|Selina|1996|302841|Wilde|Céline|2003||||||||||||||||
+42404|813974|266860|Zürcher Barbara|81761|307444|Bloch|Ilana|2000|290597|Bürgi|Danielle|2001|290598|Hagmann|Michelle|2001|278668|Hannich|Ilona|1994|259683|Heppler|Lukas|1993|307437|Laffer|Li|1992|290599|Maire|Fabienne|1996|307439|Nienhüser|Luana Mira|2004|266859|Stalder|Michael|1992|307438|Walther|Amélie|2004||||||||
+42404|813690|235226|Stump Corinne|58071|270037|Egli|Linda|1998|307524|Forrer|Fiona|2000|307525|Wirth|Janina|2003|264610|Stump|Sarah|1993|248110|Bieri|Elisabeth|1991|286173|Brönnimann|Zora|1988|307523|Forrer|Eliane|2003|304617|Ammann|Romy|2003||||||||||||||||
+42404|813322|213973|Schaffner Stefanie|75595|295090|Denzler|Debora|1994|295094|Hess|Veronika|1996|307856|Sennhauser|Tanja|1993|307855|Senn|Corinne|1990|279333|Schober|Linda|1998|307858|Walther|Melanie Jane|2002|307857|Fischer|Céline|2004||||||||||||||||||||
+42404|813233|307454|Nyffenegger Sarah|82400|307455|Roth|Steffi|1993|307456|Ulmann|Tanisha|2000|307752|Mumprecht|Joeana|2003|307459|Basso|Annina|2002|307458|Kaufmann|Michelle|1997|283571|Stoll|Anja|1995|307460|Sunier|Cindy|2006|307750|Bart|Patricia|2002||||||||||||||||
+42404|813215|130246|Heuer Michael|78389|308527|Bohse|Marie-Hélène|1992|290593|Guenat|Anna|1996|292355|Liaudet|Florence|1999|307470|Lüdi|Nicole|1996|307471|Tissot|Meg|2003|254800|Tresch|Melina|1994|307469|Zurfluh|Léonie|2000||||||||||||||||||||
+42404|813170|125431|Winkler-Bischofberger Monika|86648|275140|Bienz|Nathalie|1999|260399|Büttiker|Nadja|1994|275894|Di Maria|Raffaela|2000|296086|Koller|Aline|2002|270068|Näf|Ramona|1997|301797|Seiler|Kyra|2004|306455|Stieger|Celine|2002|294019|Stucki|Sally|2002||||||||||||||||
+42404|812576|259225|Bosshard Corinne|122627|303036|Gassmann|Selina|1996|278364|Lüber|Ramona|1996|307920|Gimmi|Elena|1994|306458|Muhs|Fabienne|1998|307922|Lafosse|Moira|2000|307921|Hüppi|Lena|2001|307919|Rüegg|Saskia|2005|307923|Lüthi|Stephanie|1996|303038|Hunn|Asarja|2003|292037|Lüber|Nadja|1999||||||||
+42403|814062|12344|Kauer Trudi|116694|303010|Lötscher|Sophie|2001|287584|Steiner|Svenja|1998|307407|Prinz|Ashana|2001|287583|Schneider|Anja|2003|307416|Egli|Sophia|2004|307408|Tschanz|Melissa|2004|307405|Gruner|Tahara|2005|307406|Stettler|Nelson Angel|2003||||||||||||||||
+42403|834083|220113|Degiorgi Mirjam|93867|302587|Rochaix|Maude|1999|302588|Römer|Sybille|1998|302589|Rochaix|Laure|2002|307749|Ziegelmüller|Leonie|2002|302585|Garius|Samira|2002|306459|Vidal|Carine|2002|306460|Berghuis|Sira|2005|280424|Hämmerli|Pauline|1997|296088|Schumacher|Selina|1997||||||||||||
+42403|823902|125431|Winkler-Bischofberger Monika|86647|307673|Bouwmeester|Manon|2000|290596|Gallo|Daria|2001|307686|Koller|Samira|2004|296086|Koller|Aline|2002|278366|Schefer|Ladina|1992|301797|Seiler|Kyra|2004|306455|Stieger|Celine|2002|307675|Studer|Nathalie|1999|276518|Wildberger|Jana|2000||||||||||||
+42403|823903|307676|Widmer Désirée|115497|307678|Gallo|Ronja|2003|307679|Hagmann|Anna|2000|307680|Helg|Giulia|2000|307681|Heuberger|Kaija|2004|307682|Kalbermatten|Alina|2000|307683|Weber|Josephine-Renée|2001|307690|Widmer|Heidi|1998|307684|Widmer|Petra|2002||||||||||||||||
+42403|816120|205673|Jäiser Simone|113458|292698|Aeschlimann|Leila|2003|285262|Fuchs|Nathalie|1998|307606|Koller|Laura|2004|301795|Kündig|Nina|2000|301796|Linsbichler|Leonie|2005|307573|Rawyler|Enya|2002|293954|Wegmann|Alina|2001||||||||||||||||||||
+42403|814345|307728|Martin Ursi|79664|307708|Etter|Lena|2000|307707|Theus|Lea|2000|307706|Franzetti|Bibiana|2002|307710|Rübel|Michelle|2001|307711|Schiess|Romy|2003|307709|Thöni|Lynn|2004|307716|Scheler|Mara|2001|307715|Schwerzmann|Lorena|2003|307718|Mächler|Sherine|1998|307712|Kind|Annikki|2001||||||||
+42403|812575|259225|Bosshard Corinne|89401|303041|Zehnder|Corina|1999|303040|Schmucki|Rahel|2000|303038|Hunn|Asarja|2003|292037|Lüber|Nadja|1999|303043|Neumeister|Severine|2001|303037|Grundmann|Kira|2000|306458|Muhs|Fabienne|1998|307922|Lafosse|Moira|2000|307919|Rüegg|Saskia|2005||||||||||||
+42400|817957|289811|Malnar Daniela|73566|307878|Burger|Martina|1996|307879|Germann|Romy|1998|307880|Hauser|Anouk|2001|307875|Hochstrasser|Mirjam|1995|307876|Jost|Romana|2002|307881|Medgyesy|Jael|2004|307883|Rütimann|Julia|1994|307877|Uehlinger|Stefanie|1999||||||||||||||||
+42400|817782|307905|Gysel Hans-Peter|57960|307906|Bärtschi|Jana|2001|307907|Bärtschi|Alicia|2003|307909|Buri|Julie|2005|307908|Friedli|Livia|2004|301913|Gysel|Nathalie|1990|277359|Joho|Gioia|1995|307911|Wyss|Mirijana|2000||||||||||||||||||||
+42400|817345|255561|Hefti Marion|66838|307831|Allenspach|Helen|2000|307812|Angehrn|Sarah|2002|307817|Bühlmann|Helen|2000|307818|Duden|Alea|2002|307819|Hupfer|Ricarda|2000|307820|Oderbolz|Alena|1999|307821|Sutter|Mira|2005|307822|Sutter|Rona|2002|307823|Wanner|Saskia|2003||||||||||||
+42400|816119|265438|Scherrer Martina|90596|307580|Dikhoff|Laura|2001|307577|Frey|Aline|1996|307578|Frey|Joana|2000|307579|Göldi|Jana|2003|307607|Hössli|Linda|2003|307581|Hostettler|Rakhi|1998|307608|Kummer|Jael|2004|307572|Lewenstein|Tailla (Tehilla)|2000|307609|Licci|Noemi|2005|307610|Oberholzer|Jacqueline|2000|303537|Rhyner|Michèle|2001|307582|Schulthess|Tobias|2003
+42400|814344|267056|Daeppen Manuela|97847|307718|Mächler|Sherine|1998|307714|Schweizer|Kathrin|1992|305357|Daeppen|Bettina|1985|307716|Scheler|Mara|2001|307712|Kind|Annikki|2001|307723|Habegger|Jasmin|2002|307721|Hunziker|Eve|2006|307711|Schiess|Romy|2003|307717|Hugger|Melanie|1998|307715|Schwerzmann|Lorena|2003|307713|Schweers|Clara|2003||||
+42400|812898|249003|Bächli Tanja|50266|304539|Bodmer|Corina|2004|307942|Hefti|Caroll|1998|307943|Hofmann|Saskia|2005|295579|Honegger|Jan|2005|307959|Jörger|Anja|1999|307941|Leodolter|Selina|1997|305236|Marti|Marina|1995|299796|Marti|Annika|2001|304371|Vettiger|Sina|2001||||||||||||
+42400|812848|234773|Röthlisberger Carmen|60169|282869|Luder|Dominique|1999|307422|Langner|Johanna|2000|306807|Dede|Anna|2002|307428|Gruber|Sabrina|1994|307425|Borer|Tessa|2002|307426|Dolanc|Malin|2003|307427|Durscher|Michèle|2003|257782|Röthlisberger|Rebecca|1984|307423|Niedermann|Céline|1997|307424|Schaub|Delia|1998|221919|Huber|Angela|1981||||
+42400|812745|254245|Hindermann Désirée|82882|307896|Baumann|Vera|1999|237060|Braun|Daniela|1987|286031|Dünner|Corinne|1992|307895|Girardet|Gioia|2000|307898|Hindermann|Janine|2001|307897|Widmer|Aline|2003||||||||||||||||||||||||
+42400|812574|269957|Bosshard Sandra|54461|292033|Hug|Andrina|2000|307925|Kehl|Celine|2000|307917|Bosshard|Jeanina|1999|307924|Fehr|Vera|1999|307926|Rupf|Noëmi|2003|304790|Alpiger|Seraina|1997|307927|Scheiben|Linda|2005|292037|Lüber|Nadja|1999|306458|Muhs|Fabienne|1998||||||||||||
+42399|820557|307732|Bähren Michael|87437|307739|Broger|Marion||307733|Hollenstein|Jessica||307735|Kilchsperger|Nina||307740|Küng|Elena||307736|Nitsingam|Natalie||307737|Roth|Shona||307738|Thalmann|Noemi|||||||||||||||||||||
+42399|817413|244034|Freund Naomi|84125|307801|Freund|Jelena|2005|307800|Brühwiler|Sabrina|2003|307799|Bürge|Tina|2004|307797|Freund|Alessia|2002|307796|Meier|Fiona|2001|307795|Jaeschke|Carsten|1997|307798|Berglas|Anna-Mea|2005|244034|Freund|Naomi|1991|302663|Keser|Stephanie|1998||||||||||||
+42399|817344|206033|Stucki Petra|102709|307831|Allenspach|Helen|2000|307812|Angehrn|Sarah|2002|307824|Brändle|Anna|2004|307825|Büsser|Fabienne|2002|307818|Duden|Alea|2002|307826|Koller|Joy|2004|307827|Lüchinger|Laila|2001|307828|Talebolhagh|Shirin|2005|307829|Traber|Michaela|2001|307830|Wagner|Jasmin|2004||||||||
+42399|813168|260398|Büttiker Martina|117358|307685|Brändle|Stefanie|2006|307693|Holenstein|Aliyah|2006|307686|Koller|Samira|2004|307687|Rombach|Vanessa|2000|307688|Strässle|Anna|2006|307689|Toscanelli|Seraina|2004|308496|Toscanelli|Alessia|2004|307690|Widmer|Heidi|1998||||||||||||||||
+42399|812897|274354|Furrer Isabel|107965|307944|Albisser|Anna|2001|307947|Burkhalter|Kim|2004|307943|Hofmann|Saskia|2005|295579|Honegger|Jan|2005|307946|Kupper|Leonie|2002|307941|Leodolter|Selina|1997|305236|Marti|Marina|1995|299796|Marti|Annika|2001|307952|Riedo|Jessica|2003|304371|Vettiger|Sina|2001||||||||
+42399|812573|304792|Bosshard Belinda|68793|307928|Bosshard|Corinna|2003|307929|Brunner|Angélique|2001|307930|Brunner|Rianna|2001|307931|Furrer|Melanie|2001|307932|Muhs|Jule|2000|307933|Rüegg|Annina|2003|307934|Winter|Celine|2002|307923|Lüthi|Stephanie|1996||||||||||||||||
+42398|814343|305357|Daeppen Bettina|79664|307724|Scholler|Jessica|2004|307722|Schaub|Jara|2004|307720|Sieber|Denise|2002|307726|Weiss|Julian|2004|307727|Bollhalder|Stephanie|2001|307725|Weiss|Joana|2006|309195|Möhl|Lisa|2005|307719|Zogg|Anja|2007|307721|Hunziker|Eve|2006|309855|Krähemann|Aline|2002||||||||
+42398|813973|264614|Sohm Alana|78897|307453|DuPasquier|Alix|2003|307449|Obrecht|Emma|2006|307448|Obrecht|Lina|2002|307450|Scherrer|Rahel|2002|307451|Steinhart|Isabella|2002|307447|von Wattenwyl|Jeanne|2004|307452|von Wattenwyl|May|2008||||||||||||||||||||
+42398|813166|213865|Hedinger Sara|61486|308832|Bolliger|Alessia|2001|308246|Briner|Elisa|2001|308833|DOnghia|Nadja|2001|308834|Enzler|Nika|2005|308837|Gut|Yasmin|2005|308838|Manella|Alessia|2005|308836|Müller|Michelle|2005|308835|Vana|Peke|2004||||||||||||||||
+42398|812933|242528|Kuster Erika|63788|307402|Sonderegger|Leana|2005|307401|Mäder|Amira|2005|307404|Marti|Yael|2000|307398|Davé|Tilla|2005|308577|Bamert|Noemi|2004|307400|Kindlimann|Corina|2007|307403|Walser|Natasha|2006||||||||||||||||||||
+42398|812901|249003|Bächli Tanja|94820|309229|Gehri|Amira|2006|307948|Manfredi|Lea|2004|307950|Neukomm|Joelle|2006|307962|Schlegel|Ronja|2002|307961|Siegrist|Sina|2006|307951|Vettiger|Neela|2007|304908|Weiss|Lisa|2004||||||||||||||||||||
+42398|812746|307892|Baumann Sarah|89137|291592|Albrecht|Olivia|2000|307901|Füchslin|Elena|2001|307903|Kälin|Selina|2000|307900|Krummenacher|Muriel|2000|307902|Schubiger|Fabienne|3003|307904|Witschard|Sophie|2002||||||||||||||||||||||||
+42398|812572|304790|Alpiger Seraina|79138|307938|Koch|Simea|2001|307935|Appenzeller|Lianne|2002|307937|Eisenhut|Sheryl|2004|307936|Benz|Chiara|2005|307939|van Waasen|Hannah|2004|307940|Hein|Charline|2006|309161|Merk|Sara|2007||||||||||||||||||||
+42397|825291|307504|Hengartner Kathrin|122192|307499|Baumann|Daniela|2005|307494|Braun|Giulia|2002|307500|Ebinger|Jana|2002|307501|Eugster|Sarah|2004|307496|Flaig|Vanessa|2004|260933|Hengartner|Marisa|1996|307497|Klarer|Michelle|2003|307498|Schilling|Julia|2005|307503|Stadelmann|Leandra|2001||||||||||||
+42397|817956|218581|Jean Marie-Claire|101488|307885|Burkhard|Leila|2003|307886|Herter|Elena|2005|307887|Leu|Nadine|2004|307884|Möckli|Alessandra|2001|307890|Müller|Marisa|2004|307888|Rau|Leona|2003|307889|Schurter|Pia|2006|305261|Wüthrich|Natascha|2001||||||||||||||||
+42397|817683|1492|Gebs Dar Annemarie|106631|307513|Bianda|Dora|2006|307514|Bruderer|Amelie|2005|309795|Halter|Noemi|2002|307517|Jäger|Ronja|2004|307516|Jäger|Jessica|2001|307518|Neukomm|Alicia|2003|307519|Neukomm|Selina|2005|307520|Pfister|Carina|2003|309796|Stöckli|Justine|2002||||||||||||
+42397|817498|288636|Frick Alessia|67937|307847|Borner|Anna-Lena|2005|307848|Friederich|Alina|2006|307849|Naef|Mona|2007|307850|Reimundez|Samanta|2004|310549|Seitz|Sarah|2009|307851|Spaar|Mara|2004|307852|Tanner|Samira|2008|307853|Weibel|Cheyenne|2004|307854|Zeller|Andrina|2004||||||||||||
+42397|817342|255561|Hefti Marion|98401|307838|Enzler|Celine|2001|307840|Heller|Jael|2000|307839|Heller|Annika|2002|307841|Lüchinger|Luana|2004|307842|Peyret|Audrey|2004|307843|Schneider|Viviane|2002|307844|Seitz|Ginja|2004|307845|Wirz|Maria|2003|307846|Zanettin|Viviane|2003||||||||||||
+42397|814716|220462|Landolt Stefanie|89906|284628|Bleisch|Mara|2000|307511|Rüttimann|Zoe|2001|307506|Ciullo|Michelle|1999|307510|Rölli|Luana|2000|307508|Müller|Tamia|2000|307512|Zweili|Leonie|2003|307509|Peter|Leandra|2002|307505|Brunner|Linn|2003|307507|Karrer|Leonie|2005||||||||||||
+42397|812932|242528|Kuster Erika|63788|307391|Gautschi|Lukas|1997|307396|Schweizer|Darina|2005|307392|Hofer|Mara|2006|307397|Walser|Leonie|2005|307395|Scherrer|Noemi|2006|307393|Largey|Laura|1999||||||||||||||||||||||||
+42397|812847|307435|Röthlisberger Lucia|124995|307431|Grimbichler|Rahel|2002|307434|Schaub|Leonie|2003|307433|Ketterer|Moana|2003|307430|Gisin|Gina|2004|308639|Besteck|Jamila|2004|307432|Jegen|Naemi|2004|307429|Best|Sarah|2002||||||||||||||||||||
+
+TEILNEHMER (EINZEL)
+ID|FN-NR|NAME|VORNAME|VEREIN|GESCHLECHT|JAHRGANG|KLASSE|ARMNR|BEMERKUNG
+834485|286173|Brönnimann|Zora|Garten|W|1988|ST|69|Ersatz-LF Corinne Stump
+834087|296087|Michel|Colin|Voltige Montmirail|M|1995|ST|3|Ersatzlongenf.: Edith Degiorgi. Startet nur an SM, falls qualifiziert.
+826571|297911|Gunterswiler|Jana|RV Schaffhausen|W|1994|ST|43|
+818463|273024|Maruccio|Zoe|VG Biel-Ipsach|W|1995|ST|75|Ersatzlongenführer Michael Heuer
+817347|262646|Ruckstuhl|Angelika|Voltige-Gruppe RC St.Gallen|W|1994|ST|118|Ersatzlongenführer: Marion Hefti
+817348|290594|Müller|Andrin|Voltige-Gruppe RC St.Gallen|M|1994|ST|12|Ersatzlongenführer: Marion Hefti
+816125|275133|Hofstetter|Céline|Voltige-Club Harlekin|W|1996|ST|30|
+816124|266848|Mohar|Marina|Voltige-Club Harlekin|W|1996|ST|86|
+816123|205673|Jäiser|Simone|Voltige Gruppe Juniorenkader 2015|W|1986|ST|16|
+813976|278668|Hannich|Ilona|NPZ Bern|W|1994|ST|71|
+813977|259683|Heppler|Lukas|NPZ Bern|M|1993|ST|82|
+813692|248110|Bieri|Elisabeth|Garten|W|1991|ST|4|Ersatz-LF Albert Stump
+813217|290593|Guenat|Anna|VG Biel-Ipsach|W|1996|ST|60|Ersatzlongenführer: Michael Heuer
+813218|254800|Tresch|Melina|VG Biel-Ipsach|W|1994|ST|61|Ersatzlongenführer: Michael Heuer
+813219|307470|Lüdi|Nicole|VG Biel-Ipsach|W|1996|ST|2|Ersatzlongenführer: Michael Heuer
+813173|260398|Büttiker|Martina|Voltige Lütisburg|W|1989|ST|76|Ersatz LF: Michael Gnad, Desiree Widmer, Karin Dick, Stephanie Hangartner
+813174|260399|Büttiker|Nadja|Voltige Lütisburg|W|1994|ST|63|Ersatz LF: Michael Gnad, Desiree Widmer, Karin Dick, Stephanie Hangartner
+812850|221919|Huber|Angela|Basiliensis|W|1981|ST|23|Ersatz LF: C. / S. Röthlisberger (Start am Samstag erwünscht, falls nicht qualifiziert)
+834086|302587|Rochaix|Maude|Voltige Montmirail|W|1999|SJ|125|Ersatzlongenf.: Edith Degiorgi. Startet nur an SM,falls qualifiziert.
+812969|296088|Schumacher|Selina|Voltige Team Interlaken|W|1997|SJ|14|
+834405|297615|Fahrni|Mascha|Voltige Team Interlaken|W|2000|SJ|52|
+834085|302588|Römer|Sybille|Voltige Montmirail|W|1998|SJ|5|Ersatzlongenf.: Edith Degiorgi. Startet nur an SM,falls qualifiziert.
+826574|307873|Hochreutener|Alina|RV Schaffhausen|W|1997|SJ|11|
+824559|290597|Bürgi|Danielle|NPZ Bern|W|2001|SJ|42|
+818462|264607|Schmid|Syra|VG Biel-Ipsach|W|1998|SJ|77|Ersatzlongenführer Michael Heuer
+817830|282800|Ballario|Céline|Voltige Gruppe Lengnau|W|1998|SJ|101|Ersatzlongenführer: Andrea Wyss und Regula Signer
+817784|307906|Bärtschi|Jana|Voltige Team Emme|W|2001|SJ|135|Ersatzlongenführer Hans-Peter Gysel
+813975|290598|Hagmann|Michelle|NPZ Bern|W|2001|SJ|95|
+813691|270037|Egli|Linda|Garten|W|1998|SJ|62|Ersatz-LF Albert Stump
+813234|307456|Ulmann|Tanisha|Voltige-Gruppe Beluga|W|2000|SJ|40|Ers. Longenführerin Vanessa Rusca
+813235|307458|Kaufmann|Michelle|Voltige-Gruppe Beluga|W|1997|SJ|161|Ers. Longenführerin Vanessa Rusca
+813216|292355|Liaudet|Florence|VG Biel-Ipsach|W|1999|SJ|66|Ersatzlongenführer: Michael Heuer
+813172|290596|Gallo|Daria|Voltige Lütisburg|W|2001|SJ|181|Ersatz LF: Michael Gnad, Desiree Widmer, Karin Dick, Stephanie Hangartner, Martina Büttiker
+813171|270068|Näf|Ramona|Voltige Lütisburg|W|1997|SJ|078|Ersatz LF: Michael Gnad, Desiree Widmer, Karin Dick, Stephanie Hangartner, Martina Büttiker
+812849|307424|Schaub|Delia|Basiliensis|W|1998|SJ|27|Ersatz LF: C. / S. Röthlisberger (Start am Samstag erwünscht, falls nicht qualifiziert)
+812578|303040|Schmucki|Rahel|Voltige Tösstal|W|2000|SJ|54|
+812577|292037|Lüber|Nadja|Voltige Tösstal|W|1999|SJ|143|
+824085|307407|Steiner|Svenja|Voltige Gruppe Athleta|W|1998|SJ|41|
+821410|267195|von Ah|Lara|Voltigegruppe Längghof|W|1994|S|17|
+818069|307388|Kristina|Nettgens|Amistad|W|1990|S|92|
+818068|307387|Andrea|Nettgens|Amistad|W|1986|S|73|
+813320|307856|Sennhauser|Tanja|VG Rosental|W|1993|S|15|Ersatz-LF: Schaffner Stefanie
+813321|307855|Senn|Corinne|VG Rosental|W|1990|S|74|Ersatz-LF: Schaffner Stefanie
+812748|237060|Braun|Daniela|VV Stäfa|W|1987|S|68|Ersatz Longenführer: Hindermann Désirée, Kuratli martina
+834614|284450|Curty|Natacha|Voltige-Grolley|W|2001|SJ|146|
+824081|272679|Brenn|Florence|Voltige Gruppe Athleta|W|1997|SJ|151|Läuft mit Sophie ein
+824082|303010|Lötscher|Sophie|Voltige Gruppe Athleta|W|2001|SJ|153|Läuft mit Flo ein
+817813|302663|Keser|Stephanie|VG Neuwies|W|1998|SJ|57|Ersatzlongenführer Marcel Meier
+817783|307906|Bärtschi|Jana|Voltige Team Emme|W|2001|SJ|135|Ersatzlongenführer Hans-Peter Gysel
+817685|281078|Linder|Sarah|Voltigeverein Calimero|W|1999|SJ|149|Ersatzlongenführer: Shabir Dar
+812902|307959|Jörger|Anja|RV Wetzikon|W|1999|SJ|139|Ersatz L.: Bächli Tanja
+812747|307895|Girardet|Gioia|VV Stäfa|W|2000|SJ|93|Ersatz Longenführer: Hindermann Désirée, Kuratli Martina
+
+NENNUNGEN (EINZEL)
+PRUEFUNG ID|TEILNEHMER ID|FN-NR LONGE|LONGE|PFERDE ID
+42406|834485|209589|Stump Albert|78312
+42406|834087|220113|Degiorgi Mirjam|85238
+42406|826571|241277|Rothweiler Yvette|99201
+42406|818463|122410|Schmid Marlis|101300
+42406|817347|206033|Stucki Petra|76184
+42406|817348|206033|Stucki Petra|76184
+42406|816125|10413|Blieske Rita|91002
+42406|816124|10413|Blieske Rita|91002
+42406|816123|10413|Blieske Rita|91002
+42406|813976|264614|Sohm Alana|70594
+42406|813977|266860|Zürcher Barbara|62969
+42406|813692|235226|Stump Corinne|64845
+42406|813217|217299|Steiger Vanessa|63992
+42406|813218|217299|Steiger Vanessa|63992
+42406|813219|217299|Steiger Vanessa|63992
+42406|813173|125431|Winkler-Bischofberger Monika|104692
+42406|813174|125431|Winkler-Bischofberger Monika|104692
+42406|812850|257782|Röthlisberger Rebecca|61000
+42405|834086|220113|Degiorgi Mirjam|85238
+42405|812969|307638|Zumkehr Irène|83104
+42405|834405|226633|Zumkehr Béatrice Erika|69238
+42405|834085|220113|Degiorgi Mirjam|85238
+42405|826574|241277|Rothweiler Yvette|99201
+42405|824559|120105|Bürgi Susanne|84915
+42405|818462|122410|Schmid Marlis|101300
+42405|817830|241195|Grossglauser Jasmine|90639
+42405|817784|301913|Gysel Nathalie|65360
+42405|813975|264614|Sohm Alana|78897
+42405|813691|235226|Stump Corinne|64845
+42405|813234|307454|Nyffenegger Sarah|119357
+42405|813235|307454|Nyffenegger Sarah|119357
+42405|813216|217299|Steiger Vanessa|63992
+42405|813172|125431|Winkler-Bischofberger Monika|104692
+42405|813171|125431|Winkler-Bischofberger Monika|104692
+42405|812849|257782|Röthlisberger Rebecca|61000
+42405|812578|259225|Bosshard Corinne|105139
+42405|812577|259225|Bosshard Corinne|105139
+42405|824085|12344|Kauer Trudi|83104
+42402|821410|234856|Bischof Corine|69287
+42402|818069|307386|Hobi Tanja|75595
+42402|818068|307386|Hobi Tanja|75595
+42402|813320|241359|Vollenweider Janine|86514
+42402|813321|241359|Vollenweider Janine|86514
+42402|812748|307891|Kummer Martina|89137
+42401|834614|125197|Curty Sibylle|67717
+42401|824081|12344|Kauer Trudi|83104
+42401|824082|12344|Kauer Trudi|83104
+42401|817813|244034|Freund Naomi|53177
+42401|817783|301913|Gysel Nathalie|65360
+42405|817685|1492|Gebs Dar Annemarie|61712
+42401|812902|274354|Furrer Isabel|107965
+42401|812747|307891|Kummer Martina|89137
+
+TEILNEHMER (DOPPEL)
+ID|FN-NR 1|NAME 1|VORNAME 1|VEREIN 1|FN-NR 2|NAME 2|VORNAME 2|VEREIN 2|KLASSE|ARMNR 1|ARMNR 2|BEMERKUNG
+834404|272680|Brenn|Jasmin|Voltige Gruppe Athleta|278118|Brenner|Sara|Voltige Gruppe Athleta|S|||
+824084|287583|Schneider|Anja|Voltige Gruppe Athleta|287584|Steiner|Svenja|Voltige Gruppe Athleta|S|15|41|
+817349|239641|Nef|Selina|Voltige-Gruppe RC St.Gallen|307815|Signer|Sandra|Voltige-Gruppe RC St.Gallen|S|||Ersatzlongenführer: Marion Hefti
+816126|298360|Dubs|Ursina|Voltige-Club Harlekin|285264|Löwy|Alexandra|Voltige-Club Harlekin|S|123|124|
+813693|286173|Brönnimann|Zora|Garten|264610|Stump|Sarah|Garten|S|69|105|Ersatz-LF Corinne Stump
+813220|273024|Maruccio|Zoe|VG Biel-Ipsach|264607|Schmid|Syra|VG Biel-Ipsach|S|75|77|Ersatzlongenführerin: Vanessa Steiger
+812851|307421|Häner|Anja|Basiliensis|307423|Niedermann|Céline|Basiliensis|S|20|21|Ersatz LF: C. / S. Röthlisberger
+812579|278364|Lüber|Ramona|Voltige Tösstal|303036|Gassmann|Selina|Voltige Tösstal|S|83|87|
+
+NENNUNGEN (DOPPEL)
+PRUEFUNG ID|TEILNEHMER ID|FN-NR LONGE|LONGE|PFERDE ID
+42407|834404|12344|Kauer Trudi|62250
+42407|824084|12344|Kauer Trudi|83104
+42407|817349|206033|Stucki Petra|91808
+42407|816126|10413|Blieske Rita|77039
+42407|813693|209589|Stump Albert|61888
+42407|813220|130246|Heuer Michael|67788
+42407|812851|257782|Röthlisberger Rebecca|61000
+42407|812579|259225|Bosshard Corinne|105139

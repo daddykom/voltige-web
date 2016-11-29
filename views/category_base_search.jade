@@ -1,0 +1,31 @@
+.row
+	h1 {{ page_title }}
+	table.table.table-striped
+		thead
+			tr
+				th(translate) Kategorie
+				th(translate) Gruppe min.
+				th(translate) Gruppe max.
+				th(translate) Alter min.
+				th(translate) Alter max.
+				th(translate) Richter min.
+				th(translate) Richter max.
+				th(translate)
+					div.form-group
+						div.controls.row-fluid
+							a.form-control.btn.btn-default(href="#/admin/category_base/0")
+								span(class="glyphicon glyphicon-plus", aria-hidden="true")
+					|Aktion
+		tbody
+			tr(ng-repeat="CategoryBase in category_bases")
+				td {{ CategoryBase.short_description }}
+				td {{ CategoryBase.mingroup }}
+				td {{ CategoryBase.maxgroup }}
+				td {{ CategoryBase.minage }}
+				td {{ CategoryBase.maxage }}
+				td {{ CategoryBase.minref }}
+				td {{ CategoryBase.maxref }}
+				td
+					div.controls.row-fluid
+						a.form-control.btn.btn-default(href="#/admin/category_base/{{CategoryBase.id}}")
+							span(class="glyphicon glyphicon-edit", aria-hidden="true")

@@ -1,0 +1,54 @@
+.row
+	h1 {{ page_title }}
+	div(ng-repeat="Subscription in subscriptions")
+		div.panel.panel-default
+			div.panel-body
+				h2 {{Subscription.club}}
+				h3 {{Subscription.name}} {{Subscription.prename}}
+				p {{Subscription.description}}
+				button.btn.btn-primary(ng-click="getMembers(Subscription)",data-toggle="modal",data-target="#longesub{{Subscription.subscription_id}}") Zuordnen
+				div.panel.panel-default
+					div.panel-body
+						p Vorhandene Ersatz-Longenführer
+						button.btn.btn-default(ng-repeat="Member in Subscription.longesubs")
+							{{Member.name}} {{Member.prename}}
+				div.modal(id="longesub{{Subscription.subscription_id}}",tabindex="-1", role="dialog", aria-labelledby="")
+					div.modal-dialog(role="document")
+						div.modal-content
+							div.modal-header
+								h3 {{Subscription.name}} {{Subscription.prename}}
+							div.modal-body
+								div.panel.panel-default
+									div.panel-body
+										h4 Text: {{Subscription.description}}
+										div.panel.panel-default
+											div.panel-body
+												p Ausgewählte Ersatz-Longenführer (abwählen durch klicken)
+												button.btn.btn-default(ng-click="unselectMember(Member)",ng-repeat="Member in longesubs")
+													{{Member.name}} {{Member.prename}}
+										div.panel.panel-default
+											div.panel-body
+												p Mögliche Ersatz-Longenführer (wählen durch klicken)
+												button.btn.btn-default(ng-click="selectMember(Member)",ng-repeat="Member in approx_members")
+													{{Member.name}} {{Member.prename}}
+										div.panel.panel-default
+											div.panel-body
+												form.form-horizontal(ng-submit="insertMember()", role="form")
+													p Neu erfassen
+													.form-group
+														label.col-md-2.control-label(for="prename_{{Subscription.subscription_id}}") Vorname
+														.col-md-10
+															input.form-control(placeholder="Vorname",id="prename_{{Subscription.subscription_id}}",ng-model="NewMember.prename")
+															span.help-block(ng-repeat="errormsg in NewMember._errors['prename']") {{errormsg}}
+													.form-group
+														label.col-md-2.control-label(for="name_{{Subscription.subscription_id}}") Name
+														.col-md-10
+															input.form-control(placeholder="Name",id="name_{{Subscription.subscription_id}}",ng-model="NewMember.name")
+															span.help-block(ng-repeat="errormsg in NewMember._errors['name']") {{errormsg}}
+													.form-group
+														.col-md-10.col-md-offset-2
+															button.btn.btn-default(type="submit") Einfügen
+										div.panel.panel-default
+											div.panel-body
+												button.btn.btn-primary( type="button", ng-click="saveSubscription(Subscription)", data-dismiss="modal") Speichern
+												button.btn.btn-default( type="button", data-dismiss="modal") Schliessen

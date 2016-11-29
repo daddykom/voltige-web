@@ -1,0 +1,14 @@
+[02-Nov-2016 17:44:56 Europe/Zurich] PHP Notice:  Undefined variable: cnt in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 17
+[04-Nov-2016 13:16:23 Europe/Zurich] PHP Notice:  Undefined variable: cnt in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 30
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 17:50:36 Europe/Zurich] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 105
+[09-Nov-2016 23:02:32 Europe/Zurich] PHP Notice:  Undefined offset: 12344 in /home/collinsc/public_html/voltige/src/Controller/Upload.php on line 131
