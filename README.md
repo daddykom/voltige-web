@@ -6,10 +6,8 @@ Das Programm wird in folgenden Schritten realisiert:
 
  1. Turniere in der Schweiz, die über den nationalen Verband abgewickelt werden.
  2. Internationale Turniere
-
-und, je nach Bedarf:
- 3. Turniere in Deutschland
- 4. Übersetzung in andere Sprachen
+ 3. Turniere in Deutschland, wenn erwünscht
+ 4. Übersetzung in andere Sprachen, wenn erwünscht
 
 
 Eingesetzte Technik:
